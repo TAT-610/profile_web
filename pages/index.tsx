@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import {HeroSection} from "./components/HeroSection"
 import {Navigation} from "./components/Navigation"
 import {About} from"./components/About"
+import{Experience} from "./components/Experience"
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
      <div className="container mx-auto px-14 py-20 ">
         <HeroSection/>
         <About/>
+        <Experience/>
       </div>  
     </main>
   );
