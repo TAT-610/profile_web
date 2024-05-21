@@ -9,7 +9,7 @@ interface Infor {
   avatar: string;
 }
 
-export const HeroSection = () => {
+export  const HeroSection = () => {
   const info: Infor = infor;
   return (
     <div>
