@@ -1,7 +1,7 @@
 import React from 'react'
 import infor from '../data/infor.json'
 import Image from 'next/image'
-import { TypeAnimation } from "react-type-animation";
+
 
 interface Infor {
   about: string;
@@ -34,7 +34,7 @@ export const About = () => {
               <div className='text-white  text-sm sm:text-lg mb-6 lg:text-xl font-bold'>FRONT-END DEVELOPER INTERNSHIP</div>
               <div className='text-[#ADB7BE]  text-sm sm:text-lg mb-6 lg:text-xl'>
               {info.about}
-              <div>If you have any questions or want to connect, don't hesitate to reach out!</div>
+              <div>If you have any questions or want to connect, don&apos;t hesitate to reach out!</div>
               </div>
 
             </div>
