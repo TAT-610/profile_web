@@ -5,15 +5,29 @@
         "avatar":"/images/avatar.jpg",
         "about":"I am a software engineering student at FPT University. I am always eager to explore new technologies and create the best user experiences possible. I believe that learning never stops, and I am always willing to continue working to become a better user. better front-end programmer. I look forward to having the opportunity to learn and grow with my teammates and the projects I participate in.",
         "imgab":"/images/about2.jpg",
-        "skill1":"HTML",
-        "skill2":"CSS",
-        "skill3":"React",
-        "skill4":"Node",
-        "skill5":"Figma",
-        "imgskill1":"/images/html.png",
-        "imgskill2":"/images/css.png",
-        "imgskill3":"/images/react.png",
-        "imgskill4":"/images/programing.png",
-        "imgskill5":"/images/figma.png"
+        "skills":[{
+                "skill":"HTML",
+                "imgskill":"/images/html.png"
+        },
+        {
+                "skill":"CSS",
+                "imgskill":"/images/css.png"
+        }, 
+         {
+                "skill": "React",
+                "imgskill": "/images/react.png"
+        },
+        {
+                "skill": "Node",
+                "imgskill": "/images/programing.png"
+        },
+        {
+                "skill": "Figma",
+                "imgskill": "/images/figma.png"
+              }
+]
+
+
+        
  }
     
