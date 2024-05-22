@@ -45,7 +45,21 @@
                 }
                 
 
-        ]        
+        ]   ,
+        "project":[
+                {"nameproject":"Clone Nextfix",
+                 "imgproject":"/images/11.jpg"
+                 },
+                 {"nameproject":"Landncap Website",
+                 "imgproject":"/images/2.jpg"
+                 },
+                 {"nameproject":"Review Food Website",
+                 "imgproject":"/images/food2.jpg"
+                 },
+                 {"nameproject":"Flower Shop Website",
+                 "imgproject":"/images/flower.jpg"
+                 }
+        ]
 
 
         
