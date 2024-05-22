@@ -9,7 +9,7 @@ interface Infor {
 
 }
 
-export const About = () => {
+const About: React.FC = () => {
   const info: Infor = infor;
   return (
     
@@ -20,11 +20,11 @@ export const About = () => {
             </div>
             <div className='grid grid-cols-1 sm:grid-cols-12'>
               <div className='col-span-5 place-self-center mt-4 lg:mt-0'>
-                <div className=" w-[220px] h-[220px] lg:w-[350px] lg:h-[350px] relative">
+                <div className='w-[220px] h-[220px] lg:w-[350px] lg:h-[350px] relative'>
                   <Image
                     src={info.imgab}
                     alt="hero image"
-                    className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                    className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
                     width={450}
                     height={450}
                   />
@@ -51,3 +51,4 @@ export const About = () => {
     
   )
 }
+export default About;

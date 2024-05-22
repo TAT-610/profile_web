@@ -9,7 +9,7 @@ interface Infor {
   avatar: string;
 }
 
-export  const HeroSection = () => {
+const HeroSection: React.FC = () => {
   const info: Infor = infor;
   return (
     <div>
@@ -56,4 +56,4 @@ export  const HeroSection = () => {
     </div>
   )
 }
-
+export default HeroSection;

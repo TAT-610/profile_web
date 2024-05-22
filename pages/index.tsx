@@ -1,9 +1,9 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import {HeroSection} from "./components/HeroSection"
-import {Navigation} from "./components/Navigation"
-import {About} from"./components/About"
-import{Experience} from "./components/Experience"
+import HeroSection from "./components/HeroSection"
+import Navigation from "./components/Navigation"
+import About from"./components/About"
+import Experience from "./components/Experience"
 const inter = Inter({ subsets: ["latin"] });
 
 const Home = () => {

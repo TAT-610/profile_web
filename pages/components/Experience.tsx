@@ -9,7 +9,7 @@ interface Infor {
 
 }
 
-export const Experience = () => {
+const Experience: React.FC = () => {
   const info: Infor = infor;
   return (
     
@@ -25,3 +25,4 @@ export const Experience = () => {
             
   )
 }
+export default Experience;
