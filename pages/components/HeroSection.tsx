@@ -35,7 +35,8 @@ const HeroSection= () => {
           </div>
                 <p className="text-[#ADB7BE] text-sm sm:text-lg mb-6 lg:text-xl" >{info.bio}</p>
                 <div className='my-8'>
-                    <button className='px-10 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-400 to-purple-800 to-pink-500 hover:scale-110 transition-transform duration-300 text-white '>Contact Me</button>
+                <a href="#contact" ><button className='px-10 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-400 to-purple-800 to-pink-500 hover:scale-110 transition-transform duration-300 text-white '>
+                    Contact Me</button></a>
                 </div>
         
             </div>
