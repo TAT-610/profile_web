@@ -37,8 +37,8 @@ const Experience = () => {
                     height={50}
                     className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
                   /></div> {info.skill1}
-                </div>
-                <div>
+                </div >
+                <div className='mr-5'>
                   <div className='rounded-full relative bg-slate-800 w-20 h-20'>
                   <Image
                     src={info.imgskill2}
@@ -48,7 +48,7 @@ const Experience = () => {
                     className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
                   /></div> {info.skill2}
                 </div>
-                <div>
+                <div className='mr-5'>
                   <div className='rounded-full relative bg-slate-800 w-20 h-20'>
                   <Image
                     src={info.imgskill3}
@@ -59,7 +59,7 @@ const Experience = () => {
                   /></div> {info.skill3}
                   
                 </div>
-                <div>
+                <div className='mr-5'>
                   <div className='rounded-full relative bg-slate-800 w-20 h-20'>
                   <Image
                     src={info.imgskill4}
@@ -69,7 +69,7 @@ const Experience = () => {
                     className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
                   /></div> {info.skill4}
                 </div>
-                <div>
+                <div className='mr-5'>
                   <div className='rounded-full relative bg-slate-800 w-20 h-20'>
                   <Image
                     src={info.imgskill5}
