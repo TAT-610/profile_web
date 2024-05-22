@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Rating from '@mui/material/Rating'
 import LocalFireDepartmentIcon from '@mui/icons-material/LocalFireDepartment';
 import { red } from '@mui/material/colors';
-import { Certificate } from 'crypto';
+
 
 interface Language{
   language:string;
@@ -33,7 +33,7 @@ const color = red[500];
 const Experience = () => {
   const info: Infor = infor;
   return (
-    <div className='my-16 mx-10 pt-20'>
+    <div className='my-16 mx-10 pt-20' id="experience">
       <div className='text-transparent text-5xl bg-clip-text bg-gradient-to-br from-blue-400 to-purple-800 to-pink-500 font-extrabold mb-14'>
         Experience
       </div>

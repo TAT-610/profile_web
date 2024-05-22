@@ -9,6 +9,7 @@ const Navigation= () => {
             <div className='flex space-x-6 text-[#ADB7BE] text-lg '>
               <a href="#about" className='hover:text-white font-bold cursor-pointer'>About</a>
               <a href="#project" className='hover:text-white font-bold cursor-pointer'>Project</a>
+              <a href="#experience" className='hover:text-white font-bold cursor-pointer'>Experience</a>
               <a href="#contact" className='hover:text-white font-bold cursor-pointer'>Contact</a>
            </div>
             </div>
