@@ -7,9 +7,13 @@
         "imgab":"/images/about2.jpg",
         "skill1":"HTML",
         "skill2":"CSS",
+        "skill3":"React",
+        "skill4":"Node",
+        "skill5":"Figma",
         "imgskill1":"/images/html.png",
-        "imgskill2":"/images/html.png",
-        "imgskill3":"/images/html.png",
-        "imgskill4":"/images/html.png"
+        "imgskill2":"/images/css.png",
+        "imgskill3":"/images/react.png",
+        "imgskill4":"/images/programing.png",
+        "imgskill5":"/images/figma.png"
  }
     

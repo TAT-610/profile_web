@@ -9,11 +9,11 @@ interface Infor {
   avatar: string;
 }
 
-const HeroSection: React.FC = () => {
+const HeroSection= () => {
   const info: Infor = infor;
   return (
     <div>
-        <div className="grid grid-cols-1 sm:grid-cols-12 my-20 pb-20">
+        <div className="grid grid-cols-1 sm:grid-cols-12 my-20 pb-20 pl-6">
             <div className='col-span-8 place-self-center text-center sm:text-left justify-self-start'>
                 <div className="text-white mb-4 sm:text-2xl lg:text-5xl lg:leading-normal font-extrabold" >
                 <span className="text-transparent text-6xl bg-clip-text bg-gradient-to-br from-blue-400  to-purple-800 to-pink-500">

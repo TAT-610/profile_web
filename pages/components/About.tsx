@@ -9,7 +9,7 @@ interface Infor {
 
 }
 
-const About: React.FC = () => {
+const About = () => {
   const info: Infor = infor;
   return (
     
