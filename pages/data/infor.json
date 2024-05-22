@@ -25,7 +25,27 @@
                 "skill": "Figma",
                 "imgskill": "/images/figma.png"
               }
-]
+],
+
+        "programinglanguage":[
+                {
+                        "language":"C",
+                        "value":4
+                },
+                {
+                "language":"Java",
+                "value":3.5
+                },
+                {
+                        "language":"Javascrip",
+                        "value":3.5
+                },
+                {"language":"Typescrip",
+                "value":3
+                }
+                
+
+        ]        
 
 
         

@@ -1,7 +1,14 @@
 import React from 'react'
 import infor from '../data/infor.json'
 import Image from 'next/image'
+import Rating from '@mui/material/Rating'
+import LocalFireDepartmentIcon from '@mui/icons-material/LocalFireDepartment';
+import { red } from '@mui/material/colors';
 
+interface Language{
+  language:string;
+  value:number
+}
 interface Skill{
   skill: string;
   imgskill: string;
@@ -9,8 +16,11 @@ interface Skill{
 
 interface Infor {
   skills: Skill[];
+  programinglanguage:Language[];
 }
 
+
+const color = red[500];
 const Experience = () => {
   const info: Infor = infor;
   return (
@@ -36,10 +46,25 @@ const Experience = () => {
               </div>
             ))}
           </div>
-          <div>
-            
-          </div>
-        </div>
+
+          {info.programinglanguage.map((lg, index) => (
+          <div key={index} className='text-left flex items-center m-4'>
+          <span className='text-xl mr-2'>{lg.language} :</span>
+          <Rating
+           name="text-feedback"
+           value={lg.value}
+           readOnly
+           precision={0.5}
+           icon={<LocalFireDepartmentIcon style={{ color: color, }} sx={{ fontSize: 40,verticalAlign: 'middle' }} />}
+          emptyIcon={<LocalFireDepartmentIcon style={{ color: 'grey',verticalAlign: 'middle'}} sx={{ fontSize: 40 }} />}
+          />
+          
+
+
+         </div>))}
+
+
+        </div >
       </div>
     </div>
   )

@@ -4,6 +4,7 @@ import HeroSection from "./components/HeroSection"
 import Navigation from "./components/Navigation"
 import About from"./components/About"
 import Experience from "./components/Experience"
+import Project from "./components/Project";
 const inter = Inter({ subsets: ["latin"] });
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
         <HeroSection/>
         <About/>
         <Experience/>
+        <Project/>
       </div>  
     </main>
   );
