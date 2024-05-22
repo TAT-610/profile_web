@@ -6,7 +6,7 @@ import {About} from"./components/About"
 import{Experience} from "./components/Experience"
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+const Home = () => {
   return (
     <main className={`flex min-h-screen flex-col bg-[#121212] ${inter.className}`} >
     <Navigation/>
@@ -18,3 +18,5 @@ export default function Home() {
     </main>
   );
 }
+export default Home;
+
