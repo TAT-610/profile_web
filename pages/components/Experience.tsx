@@ -33,7 +33,7 @@ const color = red[500];
 const Experience = () => {
   const info: Infor = infor;
   return (
-    <div className='my-16 mx-10 pt-20' id="experience">
+    <div className='my-16 mx-10 pt-24' id="experience">
       <div className='text-transparent text-5xl bg-clip-text bg-gradient-to-br from-blue-400 to-purple-800 to-pink-500 font-extrabold mb-14'>
         Experience
       </div>
@@ -76,7 +76,7 @@ const Experience = () => {
         </div >
         <div className='col-span-6 place-self-center text-white text-center'>
         {info.certifications.map((Certificate, index) => ( 
-            <div className="box-content h-20 w-12/12 bg-gradient-to-br from-blue-400  to-purple-800 to-slate-950 pt-4 mb-5 hover:scale-110 transition-transform duration-300"  key={index}>
+            <div className="box-content h-20 w-12/12 bg-gradient-to-br from-blue-400  to-purple-800 to-pink-500  pt-4 mb-5 hover:scale-110 transition-transform duration-300"  key={index}>
               
                  <div className='ml-4 text-center'>
                   <div className='text-lg font-bold m-auto p-0'>{Certificate.namecer}</div>
