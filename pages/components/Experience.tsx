@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Rating from '@mui/material/Rating'
 import LocalFireDepartmentIcon from '@mui/icons-material/LocalFireDepartment';
 import { red } from '@mui/material/colors';
+import { Certificate } from 'crypto';
 
 interface Language{
   language:string;
@@ -14,9 +15,17 @@ interface Skill{
   imgskill: string;
 }
 
+interface certifications{
+  namecer:string;
+  day:string;
+}
+ 
+
 interface Infor {
   skills: Skill[];
   programinglanguage:Language[];
+  imgcer:string;
+  certifications:certifications[];
 }
 
 
@@ -24,7 +33,7 @@ const color = red[500];
 const Experience = () => {
   const info: Infor = infor;
   return (
-    <div className='my-16 mx-10'>
+    <div className='my-16 mx-10 pt-20'>
       <div className='text-transparent text-5xl bg-clip-text bg-gradient-to-br from-blue-400 to-purple-800 to-pink-500 font-extrabold mb-14'>
         Experience
       </div>
@@ -65,6 +74,22 @@ const Experience = () => {
 
 
         </div >
+        <div className='col-span-6 place-self-center text-white text-center'>
+        {info.certifications.map((Certificate, index) => ( 
+            <div className="box-content h-20 w-12/12 bg-gradient-to-br from-blue-400  to-purple-800 to-slate-950 pt-4 mb-5 hover:scale-110 transition-transform duration-300"  key={index}>
+              
+                 <div className='ml-4 text-center'>
+                  <div className='text-lg font-bold m-auto p-0'>{Certificate.namecer}</div>
+                  <div className='m-auto'>{Certificate.day}</div>
+                </div>
+              </div>))}
+          
+
+
+
+
+          
+        </div>
       </div>
     </div>
   )

@@ -46,6 +46,15 @@
                 
 
         ]   ,
+        "imgcer":"/images/cousera.png",
+        "certifications":[
+                {"namecer":" Web Design for Everybody: Basics of Web Development & Coding",
+                "day":"July 10, 2023"},
+                {"namecer":" Software Development Lifecycle",
+                "day":"October 16, 2023"},
+                {"namecer":" Computer Communications",
+                "day":"January 31, 2023"}
+        ],
         "project":[
                 {"nameproject":"Clone Nextfix",
                  "imgproject":"/images/11.jpg"
